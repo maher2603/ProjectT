@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2023.1/staging' branch; Version is '2023.1.15f1 (831263a4172c) revision 8589923'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16218 MB
+OS: 'Windows 11  (10.0.22635) 64bit Core' Language: 'en' Physical Memory: 16218 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ C:/Users/maher/Documents/Computer Science/Year 3/ECS657 - MPGD/ProjectT
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63269
+55461
 Successfully changed project path to: C:/Users/maher/Documents/Computer Science/Year 3/ECS657 - MPGD/ProjectT
 C:/Users/maher/Documents/Computer Science/Year 3/ECS657 - MPGD/ProjectT
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/maher/Documents/Computer Science/Year 3/ECS657 - MPGD/ProjectT
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24868] Host "[IP] 172.24.240.1 [Port] 0 [Flags] 2 [Guid] 3209192054 [EditorId] 3209192054 [Version] 1048832 [Id] WindowsEditor(7,MAHER-SURFACE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19524] Host "[IP] 172.28.64.1 [Port] 0 [Flags] 2 [Guid] 1371030768 [EditorId] 1371030768 [Version] 1048832 [Id] WindowsEditor(7,MAHER-SURFACE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24868] Host "[IP] 172.24.240.1 [Port] 0 [Flags] 2 [Guid] 3209192054 [EditorId] 3209192054 [Version] 1048832 [Id] WindowsEditor(7,MAHER-SURFACE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19524] Host "[IP] 172.28.64.1 [Port] 0 [Flags] 2 [Guid] 1371030768 [EditorId] 1371030768 [Version] 1048832 [Id] WindowsEditor(7,MAHER-SURFACE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 9.39 ms, found 3 plugins.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 24.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.1.15f1 (831263a4172c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/Resources/UnitySubsystems
@@ -70,7 +70,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -85,42 +85,42 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006048 seconds.
-- Loaded All Assemblies, in  0.578 seconds
+Registered in 0.050865 seconds.
+- Loaded All Assemblies, in  0.600 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.446 seconds
-Domain Reload Profiling: 1020ms
-	BeginReloadAssembly (168ms)
+- Finished resetting the current domain, in  0.466 seconds
+Domain Reload Profiling: 1061ms
+	BeginReloadAssembly (193ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (254ms)
-		LoadAssemblies (165ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (117ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (189ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (246ms)
-			TypeCache.Refresh (244ms)
-				TypeCache.ScanAssembly (227ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (220ms)
+				TypeCache.ScanAssembly (206ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (447ms)
+	FinalizeReload (466ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (378ms)
+		SetupLoadedEditorAssemblies (406ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (8ms)
 			BeforeProcessingInitializeOnLoad (11ms)
-			ProcessInitializeOnLoadAttributes (273ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,51 +143,51 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\maher\Documents\Computer Science\Year 3\ECS657 - MPGD\ProjectT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\maher\Documents\Computer Science\Year 3\ECS657 - MPGD\ProjectT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.344 seconds
-Refreshing native plugins compatible for Editor in 4.77 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.361 seconds
+Refreshing native plugins compatible for Editor in 31.64 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.917 seconds
-Domain Reload Profiling: 2256ms
-	BeginReloadAssembly (345ms)
+- Finished resetting the current domain, in  0.868 seconds
+Domain Reload Profiling: 2224ms
+	BeginReloadAssembly (415ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (849ms)
-		LoadAssemblies (454ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (822ms)
+		LoadAssemblies (512ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (495ms)
-			TypeCache.Refresh (470ms)
-				TypeCache.ScanAssembly (451ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (918ms)
+		AnalyzeDomain (431ms)
+			TypeCache.Refresh (407ms)
+				TypeCache.ScanAssembly (389ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (868ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (622ms)
+		SetupLoadedEditorAssemblies (612ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (444ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (431ms)
 			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 6.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (52.6 KB). Loaded Objects now: 3657.
-Memory consumption went from 123.5 MB to 123.5 MB.
-Total: 6.756800 ms (FindLiveObjects: 0.260200 ms CreateObjectMapping: 0.106400 ms MarkObjects: 6.250300 ms  DeleteObjects: 0.138000 ms)
+Memory consumption went from 124.2 MB to 124.2 MB.
+Total: 5.569800 ms (FindLiveObjects: 0.356500 ms CreateObjectMapping: 0.310100 ms MarkObjects: 4.766500 ms  DeleteObjects: 0.135500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -205,21 +205,641 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 765314.966407 seconds.
+  Time since last request: 496479.632876 seconds.
+  path: Assets/Unity Store Assets
+  artifactKey: Guid(b7d00148ea204df42ac1da7da82d9a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets using Guid(b7d00148ea204df42ac1da7da82d9a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1451881763ed2423f264aa909707b9e4') in 0.003197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.706039 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1
+  artifactKey: Guid(06f1cc9b11ad1314592786251cbfa985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1 using Guid(06f1cc9b11ad1314592786251cbfa985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b28b2b8ee1047def2480c597d4f5184') in 0.002396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.596918 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1
+  artifactKey: Guid(7747731d2f00bc948ad23d82265425e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1 using Guid(7747731d2f00bc948ad23d82265425e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27712b96150d6b78082f7e087a76b90c') in 0.002979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.038156 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Demo Scenes
+  artifactKey: Guid(6ad9bf9958ed3c74bb2b2737dfb8b795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Demo Scenes using Guid(6ad9bf9958ed3c74bb2b2737dfb8b795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2926d7adf7a4fb969e85b70ecc12756') in 0.001024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.641646 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Demo Scenes/single_objects_demo.unity
+  artifactKey: Guid(d1202740836520043a407cf5962ccfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Demo Scenes/single_objects_demo.unity using Guid(d1202740836520043a407cf5962ccfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc54262c36741c19f55faa3d4ee5b06') in 0.000984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 77.865025 seconds.
   path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8ea7d7898c36941462aefcb65a022a21') in 0.106309 seconds
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae1c8b159634a553b7481d6ab34d1a1') in 0.000736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.446284 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Physics Materials/Cone.physicMaterial
+  artifactKey: Guid(7f35231755fa8124096e33e80144306f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Physics Materials/Cone.physicMaterial using Guid(7f35231755fa8124096e33e80144306f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebdf3cd9a4479fa9cbabd382255a2e1') in 0.028130 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
+Received Import Request.
+  Time since last request: 0.000896 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Physics Materials/wall.physicMaterial
+  artifactKey: Guid(88ae8967ae5e1514abc111b523990106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Physics Materials/wall.physicMaterial using Guid(88ae8967ae5e1514abc111b523990106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db409fbfca0eebb72f67d03e3a8e5f8') in 0.002717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.393378 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_complete_colliders.prefab
+  artifactKey: Guid(a3ce4271597121f44869d10a0a567d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_complete_colliders.prefab using Guid(a3ce4271597121f44869d10a0a567d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125028777d7df1f51ea5a752f435db34') in 0.176959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 459
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_pitwall.prefab
+  artifactKey: Guid(2953943eb6ab8e24081b12ab3f22a4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_pitwall.prefab using Guid(2953943eb6ab8e24081b12ab3f22a4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131a0615d41600d58266b02c5833a09e') in 1.059606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_tents.prefab
+  artifactKey: Guid(236da01a3a0ddb94399e07ecc8b36af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_tents.prefab using Guid(236da01a3a0ddb94399e07ecc8b36af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a85215c3995bb67005ef856962b8d7') in 0.485545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_lines.prefab
+  artifactKey: Guid(cbf79babae678474692ba1856eb21d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_lines.prefab using Guid(cbf79babae678474692ba1856eb21d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994f4a045596da7584274e0b97ed9095') in 0.382296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 268
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_startlights.prefab
+  artifactKey: Guid(d7c9b08657eabc54db441e4854d7996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_startlights.prefab using Guid(d7c9b08657eabc54db441e4854d7996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded7e15a733f30a6ad56bdd84a4ac4b2') in 0.968442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_terrain.prefab
+  artifactKey: Guid(0272d5b08108c7543b70c3ccbcd7249c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_mod_terrain.prefab using Guid(0272d5b08108c7543b70c3ccbcd7249c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bef9e4bd2898ffdee7d9d0eb9861d8') in 2.229728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 207
+========================================================================
+Received Import Request.
+  Time since last request: 258.912291 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_complete_colliders.prefab
+  artifactKey: Guid(a3ce4271597121f44869d10a0a567d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Prefabs/Track/oval_complete_colliders.prefab using Guid(a3ce4271597121f44869d10a0a567d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffc11f879324d2d79cba91ed8e0860e') in 0.072994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 459
+========================================================================
+Received Import Request.
+  Time since last request: 15.483971 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Materials/BALOONS.mat
+  artifactKey: Guid(00401932eb16a164d8c8cf5024c81370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Materials/BALOONS.mat using Guid(00401932eb16a164d8c8cf5024c81370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfec9c17f69903d925eb83b2451438b') in 0.094865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Materials/ROCK.mat
+  artifactKey: Guid(d2cd32d0fe9ff2d45934f027f557869b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Materials/ROCK.mat using Guid(d2cd32d0fe9ff2d45934f027f557869b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86022e34e92e40abdf415b815bc094e') in 0.023651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Materials/BARRIER.mat
+  artifactKey: Guid(0e65db2183b5ac74a973fc7ca41f8be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Materials/BARRIER.mat using Guid(0e65db2183b5ac74a973fc7ca41f8be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8effa473521526469ccf087f5fe827') in 0.020201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Materials/GRASS_2.mat
+  artifactKey: Guid(30eb2d32c1e32a64bb1b2962978e6cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Materials/GRASS_2.mat using Guid(30eb2d32c1e32a64bb1b2962978e6cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9345035bea4a2cee3db151d89ccc333a') in 0.036531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Materials/GRASS_1.mat
+  artifactKey: Guid(a1df3afecc4d1e54096a3139fa304bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Materials/GRASS_1.mat using Guid(a1df3afecc4d1e54096a3139fa304bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95ba7d46f075974e9cecbe04adfd8ef') in 0.036294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Materials/FENCE.mat
+  artifactKey: Guid(2511084f53954bc40b2d3c2d64cec4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Materials/FENCE.mat using Guid(2511084f53954bc40b2d3c2d64cec4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19fa6ca2330e9eb1c3167f318db5257') in 0.044410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Materials/ROAD.mat
+  artifactKey: Guid(b5bc8f3403dc1ce46a81986467de7656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Materials/ROAD.mat using Guid(b5bc8f3403dc1ce46a81986467de7656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2056a88f6fb0ac84adb4b66f67883248') in 0.816349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Materials/GRAVEL.mat
+  artifactKey: Guid(4c74f9cb9bc5fa443a3b6765771b4348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Materials/GRAVEL.mat using Guid(4c74f9cb9bc5fa443a3b6765771b4348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c441b8eff0e50879d7361399da0b28') in 0.088000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.805863 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_adbox_A.FBX
+  artifactKey: Guid(a88f373ab69427641a1e63782cc83659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_adbox_A.FBX using Guid(a88f373ab69427641a1e63782cc83659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ae7ef82ff4e656a57c96f4bf82bfc1') in 0.246046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_bridge_stairs.FBX
+  artifactKey: Guid(a75ec8c47fe028d48a6fa58aec1b21a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_bridge_stairs.FBX using Guid(a75ec8c47fe028d48a6fa58aec1b21a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8be2a20524e5a3ea5ecd3a2a870bb4') in 0.142645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_banner_www_A.FBX
+  artifactKey: Guid(b46b48af8dd3b85429f851a2aeb6c55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_banner_www_A.FBX using Guid(b46b48af8dd3b85429f851a2aeb6c55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1705ec9fc804e27c4aa979095447f0e0') in 0.139263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_F.FBX
+  artifactKey: Guid(6889c60a505e2674591635978d6b3f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_F.FBX using Guid(6889c60a505e2674591635978d6b3f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85390a2de72f7d1846348097df27b4c1') in 0.050125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_G.FBX
+  artifactKey: Guid(9ab688a3236b2b346ae9cf9153cd02d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_G.FBX using Guid(9ab688a3236b2b346ae9cf9153cd02d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250fde56aac481330fea884a80a322fc') in 0.046937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_banner_big.FBX
+  artifactKey: Guid(3ec7ef90c589d864c85590c3e79c7582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_banner_big.FBX using Guid(3ec7ef90c589d864c85590c3e79c7582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c4136e66f69d2e5eb7a9c998a9ab26') in 0.140177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_gridline.FBX
+  artifactKey: Guid(e61ec95774866634bb50789ebf8ae2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_gridline.FBX using Guid(e61ec95774866634bb50789ebf8ae2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a2740150e8e4eeb004d3c08767c63d') in 0.058375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_I.FBX
+  artifactKey: Guid(57ab3254d8860f04592142d38f3c7898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_I.FBX using Guid(57ab3254d8860f04592142d38f3c7898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99aa81425ba351fd88ba6739dfe3833') in 0.043297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_B.FBX
+  artifactKey: Guid(f45554c0bae898a45a20c7759a2c66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_B.FBX using Guid(f45554c0bae898a45a20c7759a2c66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c94752ab71e17767f1baa3aa8599525') in 0.046898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_seats_small.FBX
+  artifactKey: Guid(ced37f482f4e97f43b934ec6f4aaa2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_seats_small.FBX using Guid(ced37f482f4e97f43b934ec6f4aaa2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b603b8195bcc36931a0a3c1b2623e00') in 0.136955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_distance_2.FBX
+  artifactKey: Guid(eeb82c9ba19c7a04fad7cceb4801709e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_distance_2.FBX using Guid(eeb82c9ba19c7a04fad7cceb4801709e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b44af1e6ec2536b0aba70620a3e863c') in 0.139049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_E.FBX
+  artifactKey: Guid(4262605d7526d654e83e8802c2fd066f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_baloon_E.FBX using Guid(4262605d7526d654e83e8802c2fd066f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc69a0129a93891338b05fba1d9a5e4') in 0.062221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_banner_www_B.FBX
+  artifactKey: Guid(dd2b794431d710641b12cb1124b7caed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_banner_www_B.FBX using Guid(dd2b794431d710641b12cb1124b7caed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b9da0700061e24466e3208a280cd7c') in 0.138821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_barrier_4M.FBX
+  artifactKey: Guid(57d844aae2feec04cbbf58385598baea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_barrier_4M.FBX using Guid(57d844aae2feec04cbbf58385598baea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2f1db67c11dcc9a3c1ee7c152ba703') in 0.052285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_distance_1.FBX
+  artifactKey: Guid(41a8c51d703306847bb822a8de712521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_distance_1.FBX using Guid(41a8c51d703306847bb822a8de712521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d0e7c108c0bcf548699fd2a06c2083') in 0.143854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_garage.FBX
+  artifactKey: Guid(3229334464e594d4faea04f998792f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_garage.FBX using Guid(3229334464e594d4faea04f998792f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1809d84e2fa153a6f645b72c6894dfd') in 0.197884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_banner_medium_B.FBX
+  artifactKey: Guid(47a0a90bb2e4e3e40a64f884f032369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_banner_medium_B.FBX using Guid(47a0a90bb2e4e3e40a64f884f032369c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ed8323edd7a2a20a8e81261c71c053') in 0.158268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_bridge_middle.FBX
+  artifactKey: Guid(5bcf8c93da070554d9ccbfa41dbbe32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_bridge_middle.FBX using Guid(5bcf8c93da070554d9ccbfa41dbbe32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630da6837729077bcb1d1570a790f342') in 0.165080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_arrow_short.FBX
+  artifactKey: Guid(aa4c40250f6fe37488308808e9c759ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_arrow_short.FBX using Guid(aa4c40250f6fe37488308808e9c759ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f71c16d6a6035c732b7654efeb60c29') in 0.144795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_cone_collider.FBX
+  artifactKey: Guid(ef933055349481b4ab3c81530503aa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_cone_collider.FBX using Guid(ef933055349481b4ab3c81530503aa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fec8573f5b855a769f2553f877ce6c') in 0.064926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_seats_big.FBX
+  artifactKey: Guid(cab3bcd8972b36c47a2a11d51461acd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_seats_big.FBX using Guid(cab3bcd8972b36c47a2a11d51461acd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addad7368131703daf2f9af0716af8e2') in 0.163493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_paddock.FBX
+  artifactKey: Guid(acba828506403cf4483fb59dfa3e3695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Prefab_Meshes/prop_paddock.FBX using Guid(acba828506403cf4483fb59dfa3e3695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e783ffc0213c3180a225c79f9975326') in 0.250485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 4.459456 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_complete_colliders.FBX
+  artifactKey: Guid(6045173226090e44fa1a03375d2b519a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_complete_colliders.FBX using Guid(6045173226090e44fa1a03375d2b519a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04a35bd8746a1cdd0b31a65243e70ad') in 0.732793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_turnsigns.FBX
+  artifactKey: Guid(af010aca304d8b94ea4d5be508b74ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_turnsigns.FBX using Guid(af010aca304d8b94ea4d5be508b74ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0990234b47a0c0ee4e59274e1fb477bd') in 0.313408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular
+  artifactKey: Guid(cf20f0f386e93d14c835cdf4e5933f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular using Guid(cf20f0f386e93d14c835cdf4e5933f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f0c1776914f303b862521dddb08067') in 0.020318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_seats.FBX
+  artifactKey: Guid(293f92aa499df8046aafc2ff7fe540f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_seats.FBX using Guid(293f92aa499df8046aafc2ff7fe540f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff46106c4821b49298878665b2c42f6') in 0.626286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_barriers.FBX
+  artifactKey: Guid(cfc9260e6c73b6e46a4e54bf6dbd9107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_barriers.FBX using Guid(cfc9260e6c73b6e46a4e54bf6dbd9107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3e07ade92a9135c8f3b8e90abc0d06') in 0.187259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_lines.FBX
+  artifactKey: Guid(337b4c9f8410f6d448cd54a75aa4dbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_lines.FBX using Guid(337b4c9f8410f6d448cd54a75aa4dbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e593202a87327e2ba4f76c65ceb1c4') in 0.489145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 258
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_buildings.FBX
+  artifactKey: Guid(0cb597630d4bb8f41a434afb692968df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_buildings.FBX using Guid(0cb597630d4bb8f41a434afb692968df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3a240dc7b67d7f72145611354549ca') in 0.754522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_trees.FBX
+  artifactKey: Guid(6306af7c7eb1c114eb364ed8a401c609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Meshes/Track_Meshes/OvalModular/oval_mod_trees.FBX using Guid(6306af7c7eb1c114eb364ed8a401c609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a61ab31a31550e17d9447260ea0866') in 0.914042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 131
+========================================================================
+Received Import Request.
+  Time since last request: 233.150264 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/baloon.psd
+  artifactKey: Guid(b673e026df069984799124e3e95d4899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/baloon.psd using Guid(b673e026df069984799124e3e95d4899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3646f71b06dec65895acd57808d7f40') in 0.061403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/tyres_normal.psd
+  artifactKey: Guid(48688eced57e012499ce9c923f907c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/tyres_normal.psd using Guid(48688eced57e012499ce9c923f907c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbce43b4f52dfd11417052f50475bbd') in 0.039839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/grass_1.psd
+  artifactKey: Guid(883f6ff05ac7c5949978e8653eb5c914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/grass_1.psd using Guid(883f6ff05ac7c5949978e8653eb5c914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1f566c8eff7e9bc21f8e5608658d21') in 0.043654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/trees.psd
+  artifactKey: Guid(5ded63cbb5b7e4c4ea965828fae5ba0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/trees.psd using Guid(5ded63cbb5b7e4c4ea965828fae5ba0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44225a856f943c0d61f1672ab79aac67') in 0.026032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/gravel.psd
+  artifactKey: Guid(34e0b7cb7c92100429e74ee21fd6cc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/gravel.psd using Guid(34e0b7cb7c92100429e74ee21fd6cc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2219f5173581a9c3f703a7f44f0bff') in 0.028344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/garages.psd
+  artifactKey: Guid(2e327bf3b8820f240bbc80f95c4e2428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/garages.psd using Guid(2e327bf3b8820f240bbc80f95c4e2428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e33b0a78043d9692906535d1e34ed2f') in 0.532654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/tyres.psd
+  artifactKey: Guid(85654affde0f756419319669bb58f2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/tyres.psd using Guid(85654affde0f756419319669bb58f2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99be072d9be7b45473481b41857ff3b') in 0.046004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/barriers_normal.psd
+  artifactKey: Guid(6f1f2bcf32adb6d45b7496cacc78a4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/barriers_normal.psd using Guid(6f1f2bcf32adb6d45b7496cacc78a4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3feb6e27b05bd101b08395872ec5ad28') in 0.016464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/rock.psd
+  artifactKey: Guid(83409b5a6eb867e4fb5f01f8af827481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/rock.psd using Guid(83409b5a6eb867e4fb5f01f8af827481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389043cfadcdb9f52c1b47bc9e1e4ef7') in 0.026474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/barriers.psd
+  artifactKey: Guid(14f6f75987d2d2a48b03ff5199ae9fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/barriers.psd using Guid(14f6f75987d2d2a48b03ff5199ae9fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894c9e398ffb88c402d7f02564450cb9') in 0.033729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/grass_2.psd
+  artifactKey: Guid(6fe14ad11e27cc842bac818066ee84cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/grass_2.psd using Guid(6fe14ad11e27cc842bac818066ee84cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096dee000906b9728f3d125b3a8d7899') in 0.025070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/metal_fence.psd
+  artifactKey: Guid(aa8d667836d07af4395a226ace329e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/metal_fence.psd using Guid(aa8d667836d07af4395a226ace329e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c125795150ff450446c4eee980ca2a1a') in 0.026413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/garages_specular.psd
+  artifactKey: Guid(8b66c629a162b2a47ad4cb64253665f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/CartoonTracksPack1/Track1/Textures/garages_specular.psd using Guid(8b66c629a162b2a47ad4cb64253665f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7964c5b9ab0d3bb489a0acbf3ccf2f7') in 0.464531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.790593 seconds.
+  path: Assets/Unity Store Assets/ARCADE - FREE Racing Car
+  artifactKey: Guid(7cff54941165c314490c229b74cd1bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/ARCADE - FREE Racing Car using Guid(7cff54941165c314490c229b74cd1bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd695551b6a0975d173ea15374407c8bb') in 0.010951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.563516 seconds.
+  path: Assets/Unity Store Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)
+  artifactKey: Guid(9d896aab1f5aa8946ae832f1329a6dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders) using Guid(9d896aab1f5aa8946ae832f1329a6dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91de60b6de64c4ef4bd41b92e6ca3154') in 0.009689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.543503 seconds.
+  path: Assets/Unity Store Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)
+  artifactKey: Guid(87eba6af4c0e3ef4592345ff00d6be5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only) using Guid(87eba6af4c0e3ef4592345ff00d6be5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58cb71de3bca215f85f3e9db8385f61') in 0.008604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.097321 seconds.
+  path: Assets/Unity Store Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car.prefab
+  artifactKey: Guid(133308cdb8794744caaef026bde9e1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car.prefab using Guid(133308cdb8794744caaef026bde9e1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b90f5d59bd6387aae04d3e926a0612') in 0.547131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Unity Store Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Gray Variant.prefab
+  artifactKey: Guid(4d1624804e8167f479ab63c5302ff1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Store Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Gray Variant.prefab using Guid(4d1624804e8167f479ab63c5302ff1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0dedbee36bb6da91a28534d066e7887') in 0.044657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 109
+========================================================================
+Received Import Request.
+  Time since last request: 489.700556 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(378a51f8ac5e7a548abfcdcc191af5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(378a51f8ac5e7a548abfcdcc191af5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299ab85e83c393fdd51bde9919cbf383') in 0.002778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 5.56 ms, found 3 plugins.
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\maher\Documents\Computer Science\Year 3\ECS657 - MPGD\ProjectT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\maher\Documents\Computer Science\Year 3\ECS657 - MPGD\ProjectT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.104 seconds
+Refreshing native plugins compatible for Editor in 10.49 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.676 seconds
+Domain Reload Profiling: 2774ms
+	BeginReloadAssembly (254ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (751ms)
+		LoadAssemblies (435ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (447ms)
+			TypeCache.Refresh (433ms)
+				TypeCache.ScanAssembly (410ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1677ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (519ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (368ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3657.
-Memory consumption went from 73.7 MB to 73.7 MB.
-Total: 5.923400 ms (FindLiveObjects: 0.303000 ms CreateObjectMapping: 0.253900 ms MarkObjects: 5.322600 ms  DeleteObjects: 0.038400 ms)
+Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.5 KB). Loaded Objects now: 3707.
+Memory consumption went from 123.2 MB to 123.2 MB.
+Total: 6.222400 ms (FindLiveObjects: 0.258600 ms CreateObjectMapping: 0.117200 ms MarkObjects: 5.782600 ms  DeleteObjects: 0.062600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -237,13 +857,167 @@ AssetImportParameters requested are different than current active one (requested
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 172.075465 seconds.
+  path: Assets/Scripts/CarController.cs
+  artifactKey: Guid(e206efcf653f15f42b90a2fa0ca1beb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarController.cs using Guid(e206efcf653f15f42b90a2fa0ca1beb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ff86b15bd073c991d34b667c846685') in 0.002352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.218617 seconds.
+  path: Assets/Scripts/CarControl.cs
+  artifactKey: Guid(e206efcf653f15f42b90a2fa0ca1beb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarControl.cs using Guid(e206efcf653f15f42b90a2fa0ca1beb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994b585b412468640e83dd888451c676') in 0.000992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 3.61 ms, found 3 plugins.
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\maher\Documents\Computer Science\Year 3\ECS657 - MPGD\ProjectT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\maher\Documents\Computer Science\Year 3\ECS657 - MPGD\ProjectT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.205 seconds
+Refreshing native plugins compatible for Editor in 4.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.564 seconds
+Domain Reload Profiling: 2765ms
+	BeginReloadAssembly (268ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (817ms)
+		LoadAssemblies (453ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (491ms)
+			TypeCache.Refresh (481ms)
+				TypeCache.ScanAssembly (458ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1565ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (656ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (438ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 5.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3657.
-Memory consumption went from 73.9 MB to 73.9 MB.
-Total: 4.342600 ms (FindLiveObjects: 0.250600 ms CreateObjectMapping: 0.125100 ms MarkObjects: 3.925400 ms  DeleteObjects: 0.039500 ms)
+Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.5 KB). Loaded Objects now: 3708.
+Memory consumption went from 123.5 MB to 123.5 MB.
+Total: 8.789200 ms (FindLiveObjects: 0.831700 ms CreateObjectMapping: 0.573300 ms MarkObjects: 7.271500 ms  DeleteObjects: 0.106500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.926292 seconds.
+  path: Assets/Scripts/CarControl.cs
+  artifactKey: Guid(e206efcf653f15f42b90a2fa0ca1beb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarControl.cs using Guid(e206efcf653f15f42b90a2fa0ca1beb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8c86aac0646284ff3b2a0cab4849f1') in 0.003387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\maher\Documents\Computer Science\Year 3\ECS657 - MPGD\ProjectT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\maher\Documents\Computer Science\Year 3\ECS657 - MPGD\ProjectT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.206 seconds
+Refreshing native plugins compatible for Editor in 6.49 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.377 seconds
+Domain Reload Profiling: 3579ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (869ms)
+		LoadAssemblies (422ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (580ms)
+			TypeCache.Refresh (571ms)
+				TypeCache.ScanAssembly (549ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2378ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (934ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (188ms)
+			ProcessInitializeOnLoadAttributes (639ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 14.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.5 KB). Loaded Objects now: 3709.
+Memory consumption went from 123.5 MB to 123.5 MB.
+Total: 13.948700 ms (FindLiveObjects: 0.764000 ms CreateObjectMapping: 0.594700 ms MarkObjects: 12.472200 ms  DeleteObjects: 0.114200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -277,50 +1051,281 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\maher\Documents\Computer Science\Year 3\ECS657 - MPGD\ProjectT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\maher\Documents\Computer Science\Year 3\ECS657 - MPGD\ProjectT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.369 seconds
-Refreshing native plugins compatible for Editor in 3.56 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.079 seconds
+Refreshing native plugins compatible for Editor in 8.07 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.265 seconds
-Domain Reload Profiling: 2626ms
-	BeginReloadAssembly (270ms)
+- Finished resetting the current domain, in  3.181 seconds
+Domain Reload Profiling: 4254ms
+	BeginReloadAssembly (249ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (73ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (942ms)
-		LoadAssemblies (544ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (722ms)
+		LoadAssemblies (413ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (554ms)
-			TypeCache.Refresh (534ms)
-				TypeCache.ScanAssembly (518ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1265ms)
+		AnalyzeDomain (414ms)
+			TypeCache.Refresh (403ms)
+				TypeCache.ScanAssembly (386ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (3182ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (544ms)
+		SetupLoadedEditorAssemblies (1445ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (123ms)
-			ProcessInitializeOnLoadAttributes (377ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (1088ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 7.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (117.6 KB). Loaded Objects now: 3884.
+Memory consumption went from 127.6 MB to 127.5 MB.
+Total: 4.843300 ms (FindLiveObjects: 0.275900 ms CreateObjectMapping: 0.135100 ms MarkObjects: 4.292400 ms  DeleteObjects: 0.138200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\maher\Documents\Computer Science\Year 3\ECS657 - MPGD\ProjectT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\maher\Documents\Computer Science\Year 3\ECS657 - MPGD\ProjectT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.271 seconds
+Refreshing native plugins compatible for Editor in 8.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.238 seconds
+Domain Reload Profiling: 4504ms
+	BeginReloadAssembly (299ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (853ms)
+		LoadAssemblies (465ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (526ms)
+			TypeCache.Refresh (514ms)
+				TypeCache.ScanAssembly (489ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (3239ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1447ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (277ms)
+			ProcessInitializeOnLoadAttributes (1049ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (18ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 11.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (30.5 KB). Loaded Objects now: 3658.
-Memory consumption went from 121.9 MB to 121.9 MB.
-Total: 4.316500 ms (FindLiveObjects: 0.229600 ms CreateObjectMapping: 0.107200 ms MarkObjects: 3.910100 ms  DeleteObjects: 0.067900 ms)
+Unloading 3275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (117.6 KB). Loaded Objects now: 3897.
+Memory consumption went from 127.6 MB to 127.5 MB.
+Total: 12.595300 ms (FindLiveObjects: 0.574500 ms CreateObjectMapping: 0.883700 ms MarkObjects: 10.807600 ms  DeleteObjects: 0.325800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\maher\Documents\Computer Science\Year 3\ECS657 - MPGD\ProjectT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\maher\Documents\Computer Science\Year 3\ECS657 - MPGD\ProjectT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.159 seconds
+Refreshing native plugins compatible for Editor in 8.30 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.150 seconds
+Domain Reload Profiling: 4307ms
+	BeginReloadAssembly (267ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (786ms)
+		LoadAssemblies (433ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (489ms)
+			TypeCache.Refresh (477ms)
+				TypeCache.ScanAssembly (454ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (3152ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1314ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (957ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (41ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (109ms)
+Refreshing native plugins compatible for Editor in 10.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (117.7 KB). Loaded Objects now: 3910.
+Memory consumption went from 127.6 MB to 127.5 MB.
+Total: 17.719400 ms (FindLiveObjects: 0.482600 ms CreateObjectMapping: 0.691700 ms MarkObjects: 15.897300 ms  DeleteObjects: 0.645100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\maher\Documents\Computer Science\Year 3\ECS657 - MPGD\ProjectT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\maher\Documents\Computer Science\Year 3\ECS657 - MPGD\ProjectT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.184 seconds
+Refreshing native plugins compatible for Editor in 6.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.671 seconds
+Domain Reload Profiling: 3851ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (869ms)
+		LoadAssemblies (412ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (562ms)
+			TypeCache.Refresh (546ms)
+				TypeCache.ScanAssembly (521ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2672ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1194ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (919ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 13.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (117.6 KB). Loaded Objects now: 3923.
+Memory consumption went from 127.6 MB to 127.5 MB.
+Total: 14.437800 ms (FindLiveObjects: 1.882100 ms CreateObjectMapping: 0.816300 ms MarkObjects: 11.382700 ms  DeleteObjects: 0.353500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
