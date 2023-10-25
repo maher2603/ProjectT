@@ -676,6 +676,16 @@ UnityEngine.SystemInfo::GetMaxTextureSize
 UnityEngine.SystemInfo::GetCompatibleFormat
 UnityEngine.SystemInfo::GetGraphicsFormat
 UnityEngine.SystemInfo::GetOperatingSystemFamily
+UnityEngine.Terrain::get_allowAutoConnect_Injected
+UnityEngine.Terrain::get_groupingID_Injected
+UnityEngine.Terrain::SetNeighbors_Injected
+UnityEngine.Terrain::get_terrainData_Injected
+UnityEngine.Terrain::get_activeTerrains
+UnityEngine.TerrainData::GetBoundaryValue
+UnityEngine.TerrainData::GetAlphamapResolutionInternal_Injected
+UnityEngine.TerrainData::Internal_Create
+UnityEngine.TerrainData::get_size_Injected
+UnityEngine.TerrainData::get_users_Injected
 UnityEngine.TextAsset::get_bytes_Injected
 UnityEngine.TextCore.LowLevel.FontEngine::TryAddGlyphToTexture_Internal_Injected
 UnityEngine.TextCore.LowLevel.FontEngine::TryAddGlyphsToTexture_Internal_Injected
