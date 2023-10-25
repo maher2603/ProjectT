@@ -1163,4 +1163,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/maher/Documents/Computer Science/Year 3/ECS657 - MPGD/ProjectT/v0.2
+  playerPath: C:/Users/maher/Documents/Computer Science/Year 3/ECS657 - MPGD/ProjectT/v0.2.2
