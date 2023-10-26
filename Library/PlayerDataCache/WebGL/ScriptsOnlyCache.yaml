@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CarController
+    - CheckpointsandLaps
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
     - Cinemachine.CinemachineComposer
@@ -68,9 +69,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20398}
     - Class: 114
-      Script: {instanceID: 21308}
+      Script: {instanceID: 20566}
     - Class: 114
-      Script: {instanceID: 22526}
+      Script: {instanceID: 21310}
+    - Class: 114
+      Script: {instanceID: 22528}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 146
@@ -694,6 +697,12 @@ ScriptsOnlyBuild:
     className: CinemachineVolumeSettings
   - hash:
       serializedVersion: 2
+      Hash: 92596b5c9fa2d8b2987085b618e60182
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CheckpointsandLaps
+  - hash:
+      serializedVersion: 2
       Hash: 6237f92becd6162fa105361ab9ce2a00
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -1163,4 +1172,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/maher/Documents/Computer Science/Year 3/ECS657 - MPGD/ProjectT/v0.2.3
+  playerPath: C:/Users/Maher/Documents/Computer Science/Year 3/ecs657 - MPGD/ProjectT/v0.2.4

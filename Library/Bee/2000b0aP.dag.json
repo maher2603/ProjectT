@@ -158,7 +158,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 99,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -192,7 +192,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 37145,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -2648,7 +2648,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 43331,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -2682,7 +2682,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 78407,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -3520,7 +3520,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 84669,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -3554,7 +3554,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 120823,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -4395,7 +4395,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 127094,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -4429,7 +4429,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 210875,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -5978,7 +5978,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 217143,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -6012,7 +6012,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 254691,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -6898,7 +6898,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 261035,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -6932,7 +6932,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 340345,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -8462,7 +8462,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 346717,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -8496,7 +8496,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 380033,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -9290,7 +9290,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 386482,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -9306,7 +9306,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 386639,
-      "PayloadLength": 30032,
+      "PayloadLength": 30072,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "InputFlags": [],
@@ -9322,7 +9322,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 416758,
+      "PayloadOffset": 416798,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -9539,11 +9539,13 @@
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.ref.dll",
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll",
         "Assets/Scripts/CarControl.cs",
+        "Assets/Scripts/CheckpointsandLaps.cs",
         "C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.rsp"
       ],
       "InputFlags": [
+        0,
         0,
         0,
         0,
@@ -9837,7 +9839,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 416854,
+      "PayloadOffset": 416894,
       "PayloadLength": 6395,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -10436,7 +10438,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Player/RuntimeInitializeOnLoads.json (+1 other)",
       "DisplayName": "Extracting script serialization layouts",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.ext.nunit@2.0.3\\net40\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\EditorExtensions\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\Managed\" -s=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\" -s=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.ext.nunit@2.0.3\\net40\\unity-custom\" -s=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.ext.nunit@2.0.3\\net40\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\EditorExtensions\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\Managed\" -s=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\Bee\\PlayerScriptAssemblies\" -s=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.ext.nunit@2.0.3\\net40\\unity-custom\" -s=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -10684,6 +10686,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/2000b0aP.dag.json",
-  "PayloadsFile": "C:/Users/maher/Documents/Computer Science/Year 3/ECS657 - MPGD/ProjectT/Library/Bee/2000b0aP.dag.payloads",
+  "PayloadsFile": "C:/Users/Maher/Documents/Computer Science/Year 3/ecs657 - MPGD/ProjectT/Library/Bee/2000b0aP.dag.payloads",
   "RelativePathToRoot": "../.."
 }

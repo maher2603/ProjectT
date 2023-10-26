@@ -377,7 +377,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 107,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -411,7 +411,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 46389,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -3528,7 +3528,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 54138,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -3562,7 +3562,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 93918,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -4760,7 +4760,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 102465,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -4794,7 +4794,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 159149,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -6170,7 +6170,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 167673,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -6204,7 +6204,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 205024,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -7209,7 +7209,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 214253,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -7243,7 +7243,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 249053,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -8163,7 +8163,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 258385,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -8197,7 +8197,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 295982,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -9150,7 +9150,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 305308,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -9184,7 +9184,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 370413,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -10632,7 +10632,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 379265,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -10666,7 +10666,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 416148,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -11593,7 +11593,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 424911,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -11627,7 +11627,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 460411,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -12540,7 +12540,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 469745,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -12574,7 +12574,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 506066,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -13491,7 +13491,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 515440,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -13525,7 +13525,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 550554,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -14420,7 +14420,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 559894,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -14454,7 +14454,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 597768,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -15414,7 +15414,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 606462,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -15448,7 +15448,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 645414,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -16436,7 +16436,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 654117,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -16470,7 +16470,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 740696,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -18166,7 +18166,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 749410,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -18200,7 +18200,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 786183,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -19129,7 +19129,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 794943,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -19163,7 +19163,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 835289,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -20196,7 +20196,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 844063,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -20230,7 +20230,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 878648,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -21150,7 +21150,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 888054,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -21184,7 +21184,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 926854,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -22226,7 +22226,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 935956,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -22260,7 +22260,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 974905,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -23274,7 +23274,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 984291,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -23308,7 +23308,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1042987,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -24743,7 +24743,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1052379,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -24777,7 +24777,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1143851,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -26635,7 +26635,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1153260,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -26669,7 +26669,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1235368,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -28321,7 +28321,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1244178,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -28355,7 +28355,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1299101,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -29646,7 +29646,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1308694,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -29680,7 +29680,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1344808,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -30596,7 +30596,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1353702,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -30630,7 +30630,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1395332,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -31693,7 +31693,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1404826,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -31727,7 +31727,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1440799,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -32712,7 +32712,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1450595,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -32746,7 +32746,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1493503,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -33799,7 +33799,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1503289,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -33833,7 +33833,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1538345,
       "PayloadLength": 84,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maher\\Docum",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Maher\\Docum",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -34783,7 +34783,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1548208,
       "PayloadLength": 71,
-      "PayloadDebugContentSnippet": "C:\\Users\\maher\\Documents\\Compu",
+      "PayloadDebugContentSnippet": "C:\\Users\\Maher\\Documents\\Compu",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -34799,7 +34799,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 1548365,
-      "PayloadLength": 32939,
+      "PayloadLength": 32979,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "InputFlags": [],
@@ -34815,7 +34815,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1581391,
+      "PayloadOffset": 1581431,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -35069,11 +35069,13 @@
         "Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll",
         "Assets/Scripts/CarControl.cs",
+        "Assets/Scripts/CheckpointsandLaps.cs",
         "C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.rsp"
       ],
       "InputFlags": [
+        0,
         0,
         0,
         0,
@@ -35571,7 +35573,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1581487,
+      "PayloadOffset": 1581527,
       "PayloadLength": 9561,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -37157,7 +37159,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "Extracting script serialization layouts",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\Cinemachine.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.ext.nunit@2.0.3\\net40\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\EditorExtensions\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\Managed\" -s=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.ext.nunit@2.0.3\\net40\\unity-custom\" -s=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\" -s=\"C:\\Users\\maher\\Documents\\Computer Science\\Year 3\\ECS657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\Cinemachine.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.ext.nunit@2.0.3\\net40\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\EditorExtensions\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.15f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\Managed\" -s=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.ext.nunit@2.0.3\\net40\\unity-custom\" -s=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.4\\lib\\ReportGenerator\" -s=\"C:\\Users\\Maher\\Documents\\Computer Science\\Year 3\\ecs657 - MPGD\\ProjectT\\Library\\PackageCache\\com.unity.visualscripting@1.8.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/2023.1.15f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -37471,6 +37473,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/2000b0aE.dag.json",
-  "PayloadsFile": "C:/Users/maher/Documents/Computer Science/Year 3/ECS657 - MPGD/ProjectT/Library/Bee/2000b0aE.dag.payloads",
+  "PayloadsFile": "C:/Users/Maher/Documents/Computer Science/Year 3/ecs657 - MPGD/ProjectT/Library/Bee/2000b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }

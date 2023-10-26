@@ -1,6 +1,7 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="CarController" preserve="nothing"/>
+		<type fullname="CheckpointsandLaps" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Cinemachine">
 		<type fullname="Cinemachine.CinemachineBrain" preserve="nothing"/>

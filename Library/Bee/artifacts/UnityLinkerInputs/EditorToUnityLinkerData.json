@@ -16,6 +16,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "CheckpointsandLaps",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "Cinemachine.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Cinemachine.CinemachineBrain",
