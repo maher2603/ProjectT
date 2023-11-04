@@ -8670,7 +8670,7 @@ struct __ComObject_t1EA4A9C768C6FED5CA3BA81C6891A865282247D2  : public RuntimeOb
 struct __Error_t858F8633B2BB18A0B92EB904D4CD8FAB9DF5F2CF  : public RuntimeObject
 {
 };
-struct __JobReflectionRegistrationOutput__3844064546_t7BE9C95F0E185D984BBC851A875EB78CE50859C5  : public RuntimeObject
+struct __JobReflectionRegistrationOutput__3279522315_t4302F7718D75B812063B486D6452BC3793335E7E  : public RuntimeObject
 {
 };
 struct U3CU3Ec_t46260C21C9374535155640036BFFBA9A7568AF94  : public RuntimeObject
@@ -55027,7 +55027,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize1262 = { sizeof(__StaticArra
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1263;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize1263 = { sizeof(U3CPrivateImplementationDetailsU3E_t52D74BF05A4BD9E64351FAC4ECCED878E3AC8C45), -1, sizeof(U3CPrivateImplementationDetailsU3E_t52D74BF05A4BD9E64351FAC4ECCED878E3AC8C45_StaticFields), 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1264;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize1264 = { sizeof(__JobReflectionRegistrationOutput__3844064546_t7BE9C95F0E185D984BBC851A875EB78CE50859C5), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize1264 = { sizeof(__JobReflectionRegistrationOutput__3279522315_t4302F7718D75B812063B486D6452BC3793335E7E), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1265;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize1265 = { sizeof(U3CModuleU3E_tE279FCC7BCE13192883FB7E7A6FC8AF8783D8CFB), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1266;

@@ -1,3 +1,8 @@
+// Code adapted from YouTube example
+// https://www.youtube.com/watch?v=DU-yminXEX0&t=158s&ab_channel=Prism
+// source: https://github.com/PrismYoutube/Unity-Car-Controller retrieved in October 2023
+
+
 using System;
 using System.Collections;
 using System.Collections.Generic;

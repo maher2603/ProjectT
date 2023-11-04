@@ -662,13 +662,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Texture3D",
-            "fullManagedTypeName": "UnityEngine.Texture3D",
-            "moduleName": "Core",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Transform",
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",

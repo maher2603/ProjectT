@@ -2206,6 +2206,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GUIStyle_GetStyleStatePtr();
 		Register_UnityEngine_GUIStyle_GetStyleStatePtr();
 
+		//System.IntPtr UnityEngine.GUIStyle::Internal_Copy(UnityEngine.GUIStyle,UnityEngine.GUIStyle)
+		void Register_UnityEngine_GUIStyle_Internal_Copy();
+		Register_UnityEngine_GUIStyle_Internal_Copy();
+
 		//System.IntPtr UnityEngine.GUIStyle::Internal_Create(UnityEngine.GUIStyle)
 		void Register_UnityEngine_GUIStyle_Internal_Create();
 		Register_UnityEngine_GUIStyle_Internal_Create();
@@ -2257,6 +2261,14 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.GUIStyle::get_contentOffset_Injected(UnityEngine.GUIStyle,UnityEngine.Vector2&)
 		void Register_UnityEngine_GUIStyle_get_contentOffset_Injected();
 		Register_UnityEngine_GUIStyle_get_contentOffset_Injected();
+
+		//System.Void UnityEngine.GUIStyle::set_fontSize(System.Int32)
+		void Register_UnityEngine_GUIStyle_set_fontSize();
+		Register_UnityEngine_GUIStyle_set_fontSize();
+
+		//System.Void UnityEngine.GUIStyle::set_fontStyle(UnityEngine.FontStyle)
+		void Register_UnityEngine_GUIStyle_set_fontStyle();
+		Register_UnityEngine_GUIStyle_set_fontStyle();
 
 		//System.Void UnityEngine.GUIStyle::set_rawName(System.String)
 		void Register_UnityEngine_GUIStyle_set_rawName();

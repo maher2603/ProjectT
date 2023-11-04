@@ -1,3 +1,7 @@
+// Code adapted from YouTube example
+// https://www.youtube.com/watch?v=w9lSZPmget4&ab_channel=unknown1050
+// source: https://github.com/TheUnknown1050/Checkpoint-Tutorial retrieved in October 2023
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -135,13 +139,19 @@ public class CheckpointsandLaps : MonoBehaviour
 
     private void OnGUI()
     {
+        GUIStyle style = new GUIStyle(GUI.skin.label);
+        style.fontStyle = FontStyle.BoldAndItalic;
+        style.fontSize = 20; // You can adjust the font size as needed
+        style.normal.textColor = Color.red;
+
         // Current time
         string formattedCurrentLapTime = $"Current: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00.000} - (Lap {currentLap})";
-        GUI.Label(new Rect(50, 10, 250, 100), formattedCurrentLapTime);
+        GUI.Label(new Rect(30, 10, 300, 50), formattedCurrentLapTime, style);
 
         // Best time
         string formattedBestLapTime = $"Best: {Mathf.FloorToInt(bestLapTime / 60)}:{bestLapTime % 60:00.000} - (Lap {bestLap})";
-        GUI.Label(new Rect(250, 10, 250, 100), (started) ? formattedBestLapTime : "0:00.000");
+        GUI.Label(new Rect(30, 50, 300, 50), (started) ? formattedBestLapTime : "0:00.000", style);
     }
+
 
 }
