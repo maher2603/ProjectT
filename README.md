@@ -42,3 +42,12 @@ Alexander Miles Dexter - ec20559
 Abdirahman Mohamud - OfficialARM17 
 
 Omar Toumar - tmrinho
+
+
+References:
+
+CarControl.cs - Script - Source: https://github.com/PrismYoutube/Unity-Car-Controller (Accessed October 2023)
+
+CheckpointsandLaps.cs - Script - Source: https://github.com/TheUnknown1050/Checkpoint-Tutorial (Accessed October 2023)
+
+MainMenu.cs - Script - Source: https://www.youtube.com/watch?v=RsgiYqLID-U&ab_channel=CocoCode (Acessed November 2023)
