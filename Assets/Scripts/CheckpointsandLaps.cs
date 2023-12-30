@@ -5,6 +5,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CheckpointsandLaps : MonoBehaviour
 {
@@ -14,7 +15,11 @@ public class CheckpointsandLaps : MonoBehaviour
     public GameObject[] checkpoints;
 
     [Header("Settings")]
-    public float laps = 1;
+    public float laps;
+    public Text currentlaptext;
+    public Text bestlaptext;
+    public Text totallaptext;
+    
 
     [Header("Information")]
     private float currentCheckpoint;
@@ -44,10 +49,11 @@ public class CheckpointsandLaps : MonoBehaviour
         if (started && !finished)
         {
             currentLapTime += Time.deltaTime;
+            
 
             if (bestLap == 0)
             {
-                bestLap = 1;
+                bestLap += 1;
             }
         }
 
@@ -58,6 +64,10 @@ public class CheckpointsandLaps : MonoBehaviour
                 bestLapTime = currentLapTime;
             }
         }
+        
+        currentlaptext.text = $"Current: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00.000} - (Lap {currentLap})";
+        bestlaptext.text = $"Best: {Mathf.FloorToInt(bestLapTime / 60)}:{bestLapTime % 60:00.000} - (Lap {bestLap})";
+        totallaptext.text = "Lap "+ currentLap.ToString() + "/" +laps.ToString();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -135,22 +145,6 @@ public class CheckpointsandLaps : MonoBehaviour
                 }
             }
         }
-    }
-
-    private void OnGUI()
-    {
-        GUIStyle style = new GUIStyle(GUI.skin.label);
-        style.fontStyle = FontStyle.BoldAndItalic;
-        style.fontSize = 20; // You can adjust the font size as needed
-        style.normal.textColor = Color.red;
-
-        // Current time
-        string formattedCurrentLapTime = $"Current: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00.000} - (Lap {currentLap})";
-        GUI.Label(new Rect(30, 10, 300, 50), formattedCurrentLapTime, style);
-
-        // Best time
-        string formattedBestLapTime = $"Best: {Mathf.FloorToInt(bestLapTime / 60)}:{bestLapTime % 60:00.000} - (Lap {bestLap})";
-        GUI.Label(new Rect(30, 50, 300, 50), (started) ? formattedBestLapTime : "0:00.000", style);
     }
 
 
