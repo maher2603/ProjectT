@@ -53,7 +53,7 @@ public class CheckpointsandLaps : MonoBehaviour
 
             if (bestLap == 0)
             {
-                bestLap += 1;
+                bestLap = 1;
             }
         }
 
