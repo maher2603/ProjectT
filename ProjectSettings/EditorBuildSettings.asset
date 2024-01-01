@@ -20,5 +20,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MapMenu.unity
     guid: 5103c7c3497e3d347b6b3e488f2434cb
+  - enabled: 1
+    path: Assets/Scenes/BlazeRaceGame.unity
+    guid: 6b03ced33a0b6a944ba772e3a22a094e
+  - enabled: 1
+    path: Assets/Scenes/BlazePracticeGame.unity
+    guid: 0b33805b2256e5641b2bfc54df7298f1
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

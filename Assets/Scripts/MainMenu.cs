@@ -66,4 +66,20 @@ public class MainMenu : MonoBehaviour
             StartGame();
         }
     }
+
+    public void BlazeMap()
+    {
+        if (GameModeManager.Practice)
+        {
+            SceneManager.LoadScene("BlazePracticeGame");
+        }
+        else if (GameModeManager.Race)
+        {
+            SceneManager.LoadScene("BlazeRaceGame");
+        }
+        else
+        {
+            StartGame();
+        }
+    }
 }

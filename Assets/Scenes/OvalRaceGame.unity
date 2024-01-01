@@ -3189,7 +3189,7 @@ MonoBehaviour:
   - {fileID: 354571277}
   - {fileID: 905739016}
   - {fileID: 607875257}
-  laps: 5
+  laps: 3
   currentlaptext: {fileID: 1735858491}
   bestlaptext: {fileID: 420020356}
   totallaptext: {fileID: 674228173}
