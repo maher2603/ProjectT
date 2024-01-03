@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.011235357, g: 0.020671114, b: 0.07268329, a: 1}
+  m_IndirectSpecularColor: {r: 0.011303438, g: 0.020770222, b: 0.07275247, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7847,8 +7847,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127883942}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.00011001252, y: 0.99513274, z: -0.09853752, w: 0.0011110194}
-  m_LocalPosition: {x: -30.123398, y: 7.71, z: 13.799985}
+  m_LocalRotation: {x: 0.000110009125, y: 0.99513274, z: -0.09853752, w: 0.0011109851}
+  m_LocalPosition: {x: -30.101397, y: 6.5959997, z: 11.879986}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12685,7 +12685,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562634603}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 887ff1cb99ef8834ea054b23abbc0ef5, type: 3}
   m_Name: 
@@ -15573,15 +15573,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
       propertyPath: m_LocalScale.z
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15589,7 +15589,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.89
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15680,6 +15680,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1796488887}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1796488891}
   m_SourcePrefab: {fileID: 100100000, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
 --- !u!1 &1796488885 stripped
 GameObject:
@@ -15698,7 +15701,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796488885}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a5871c337e265e46902ede8922d4199, type: 3}
   m_Name: 
@@ -15730,7 +15733,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796488885}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e206efcf653f15f42b90a2fa0ca1beb2, type: 3}
   m_Name: 
@@ -15779,7 +15782,7 @@ Rigidbody:
   m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: -1, z: 0}
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
   m_IncludeLayers:
@@ -15788,13 +15791,39 @@ Rigidbody:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_ImplicitCom: 0
+  m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1796488891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796488885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 887ff1cb99ef8834ea054b23abbc0ef5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AICheckpoints: []
+  initialMovementSpeed: 10
+  maxMovementSpeed: 45
+  accelerationExponent: 0.4
+  checkpointProximity: 15
+  AICheckpointContainer: {fileID: 44483701}
+  frontLeftWheelCollider: {fileID: 1273242783}
+  frontRightWheelCollider: {fileID: 21978016}
+  rearLeftWheelCollider: {fileID: 1062955866}
+  rearRightWheelCollider: {fileID: 2094612663}
+  frontLeftWheelTransform: {fileID: 1072525150}
+  frontRightWheelTransform: {fileID: 1102019626}
+  rearLeftWheelTransform: {fileID: 90680488}
+  rearRightWheelTransform: {fileID: 145328120}
 --- !u!1 &1807990891
 GameObject:
   m_ObjectHideFlags: 0
@@ -19068,8 +19097,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2100958991}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.09853752, y: 0.0011110194, z: -0.00011001252, w: -0.99513274}
-  m_LocalPosition: {x: 0.024679566, y: 0.9639999, z: -3.119997}
+  m_LocalRotation: {x: -0.09853752, y: 0.0011109851, z: -0.000110009125, w: -0.99513274}
+  m_LocalPosition: {x: 0.02534914, y: 1.0239999, z: -3.4199965}
   m_LocalScale: {x: 0.21652119, y: 0.11711606, z: 0.19462581}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19211,15 +19240,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
       propertyPath: m_LocalScale.z
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19227,7 +19256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.89
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19677,14 +19706,14 @@ WheelCollider:
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
-    m_ExtremumSlip: 20
-    m_ExtremumValue: 100
+    m_ExtremumSlip: 100
+    m_ExtremumValue: 500
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 20
-    m_ExtremumValue: 100
+    m_ExtremumSlip: 50
+    m_ExtremumValue: 500
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
     m_Stiffness: 1
@@ -19876,14 +19905,14 @@ WheelCollider:
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
-    m_ExtremumSlip: 20
-    m_ExtremumValue: 100
+    m_ExtremumSlip: 100
+    m_ExtremumValue: 500
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 20
-    m_ExtremumValue: 100
+    m_ExtremumSlip: 50
+    m_ExtremumValue: 500
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
     m_Stiffness: 1
