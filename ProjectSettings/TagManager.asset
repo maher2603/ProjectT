@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Checkpoint
+  - Position Tracker
+  - CP
   layers:
   - Default
   - TransparentFX
@@ -13,9 +15,9 @@ TagManager:
   - Water
   - UI
   - ground
-  - 
-  - 
-  - 
+  - Car1
+  - Car2
+  - Car3
   - 
   - 
   - 
