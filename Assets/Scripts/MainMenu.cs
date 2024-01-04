@@ -5,13 +5,28 @@ public class GameModeManager : MonoBehaviour
 {
     public static bool Practice { get; private set; }
     public static bool Race { get; private set; }
-    public static bool Story { get; private set; }
+    public static bool Drift { get; private set; }
 
-    public static void SetGameModes(bool isPractice, bool isRace, bool isStory)
+    public static void SetGameModes(bool isPractice, bool isRace, bool isDrift)
     {
         Practice = isPractice;
         Race = isRace;
-        Story = isStory;
+        Drift = isDrift;
+    }
+}
+
+public class CarModeManager : MonoBehaviour
+{
+
+    public static bool Camaro { get; private set; }
+    public static bool Porsche { get; private set; }
+    public static bool AE86 { get; private set; }
+
+    public static void SetGameModes(bool isCamaro, bool isPorsche, bool isAE86)
+    {
+        Camaro = isCamaro;
+        Porsche = isPorsche;
+        AE86 = isAE86;
     }
 }
 
@@ -45,9 +60,9 @@ public class MainMenu : MonoBehaviour
         GameModeManager.SetGameModes(false, true, false);
     }
 
-    public void Story()
+    public void Drift()
     {
-        SceneManager.LoadScene("StoryGame");
+        SceneManager.LoadScene("DriftMenu");
         GameModeManager.SetGameModes(false, false, true);
     }
 
@@ -82,4 +97,23 @@ public class MainMenu : MonoBehaviour
             StartGame();
         }
     }
+
+    public void Camaro()
+    {
+        SceneManager.LoadScene("OvalDriftCamaro");
+        CarModeManager.SetGameModes(true, false, false);
+    }
+
+    public void Porsche()
+    {
+        SceneManager.LoadScene("OvalDriftPorsche");
+        CarModeManager.SetGameModes(false, true, false);
+    }
+
+    public void AE86()
+    {
+        SceneManager.LoadScene("OvalDriftCamaro");
+        CarModeManager.SetGameModes(false, false, true);
+    }
+
 }

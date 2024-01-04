@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.011235357, g: 0.020671114, b: 0.07268329, a: 1}
+  m_IndirectSpecularColor: {r: 0.011303438, g: 0.020770222, b: 0.07275247, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2541,7 +2541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1071991078959207046, guid: 8a8f57edf3523624eb9f886833e8e97a, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumSlip
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1071991078959207046, guid: 8a8f57edf3523624eb9f886833e8e97a, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumValue
@@ -2613,7 +2613,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3164543666836587937, guid: 8a8f57edf3523624eb9f886833e8e97a, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumSlip
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3164543666836587937, guid: 8a8f57edf3523624eb9f886833e8e97a, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumValue
@@ -2745,7 +2745,7 @@ MonoBehaviour:
   motorForce: 1500
   breakForce: 2000
   maxSteerAngle: 30
-  maxSpeed: 35
+  maxSpeed: 35.1
   frontLeftWheelCollider: {fileID: 402072161}
   frontRightWheelCollider: {fileID: 402072160}
   rearLeftWheelCollider: {fileID: 402072159}
@@ -11764,6 +11764,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1767975226}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1769189339
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5798724189896924608, guid: a3ce4271597121f44869d10a0a567d64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5798724189896924608, guid: a3ce4271597121f44869d10a0a567d64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5798724189896924608, guid: a3ce4271597121f44869d10a0a567d64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5798724189896924608, guid: a3ce4271597121f44869d10a0a567d64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5798724189896924608, guid: a3ce4271597121f44869d10a0a567d64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5798724189896924608, guid: a3ce4271597121f44869d10a0a567d64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5798724189896924608, guid: a3ce4271597121f44869d10a0a567d64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5798724189896924608, guid: a3ce4271597121f44869d10a0a567d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5798724189896924608, guid: a3ce4271597121f44869d10a0a567d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5798724189896924608, guid: a3ce4271597121f44869d10a0a567d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571565774580025210, guid: a3ce4271597121f44869d10a0a567d64, type: 3}
+      propertyPath: m_Name
+      value: oval_complete_colliders extra
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a3ce4271597121f44869d10a0a567d64, type: 3}
 --- !u!1 &1804885771
 GameObject:
   m_ObjectHideFlags: 0
@@ -13618,6 +13675,7 @@ SceneRoots:
   - {fileID: 1480692353}
   - {fileID: 1523882642}
   - {fileID: 1702530477}
+  - {fileID: 1769189339}
   - {fileID: 1053228834}
   - {fileID: 1947333886}
   - {fileID: 834783754}

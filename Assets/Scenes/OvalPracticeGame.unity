@@ -2048,7 +2048,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1071991078959207046, guid: 8a8f57edf3523624eb9f886833e8e97a, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumSlip
-      value: 100
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1071991078959207046, guid: 8a8f57edf3523624eb9f886833e8e97a, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumValue
@@ -2120,7 +2120,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3164543666836587937, guid: 8a8f57edf3523624eb9f886833e8e97a, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumSlip
-      value: 100
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3164543666836587937, guid: 8a8f57edf3523624eb9f886833e8e97a, type: 3}
       propertyPath: m_SidewaysFriction.m_ExtremumValue
@@ -2633,7 +2633,7 @@ MonoBehaviour:
   motorForce: 1500
   breakForce: 2000
   maxSteerAngle: 30
-  maxSpeed: 30
+  maxSpeed: 35.1
   frontLeftWheelCollider: {fileID: 1470129019}
   frontRightWheelCollider: {fileID: 1655514556}
   rearLeftWheelCollider: {fileID: 1380948988}

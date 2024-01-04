@@ -1465,7 +1465,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Coming Soon!
+  m_text: Drift Mode
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1649,7 +1649,7 @@ GameObject:
   - component: {fileID: 2065688497}
   - component: {fileID: 2065688496}
   m_Layer: 5
-  m_Name: Story
+  m_Name: Drift
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1696,7 +1696,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.8941177, g: 0, b: 0, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1721,7 +1721,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1534116279}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Race
+        m_MethodName: Drift
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1730,7 +1730,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
 --- !u!114 &2065688497
 MonoBehaviour:
   m_ObjectHideFlags: 0

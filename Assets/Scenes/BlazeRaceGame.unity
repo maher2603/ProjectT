@@ -8018,7 +8018,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-35278
+  m_Name: pb_Mesh44786
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -14070,7 +14070,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-35280
+  m_Name: pb_Mesh45522
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -27037,7 +27037,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-35282
+  m_Name: pb_Mesh44982
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -28835,6 +28835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Body
       objectReference: {fileID: 0}
+    - target: {fileID: -8391222552659086748, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5477749408508380018, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
@@ -28863,6 +28867,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -180
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 69b6e8fa160b23c42a4052f818eb166c, type: 2}
+    - target: {fileID: -4683669308469848369, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d2344366b80fe3d4f886ec412e0174fa, type: 2}
+    - target: {fileID: -4683669308469848369, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
+      propertyPath: 'm_Materials.Array.data[3]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ec63e2f99ff7d0c4ba51bea1b8e48be6, type: 2}
     - target: {fileID: 919132149155446097, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
       propertyPath: m_Name
       value: AICar
@@ -32502,6 +32518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Body
       objectReference: {fileID: 0}
+    - target: {fileID: -8391222552659086748, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5477749408508380018, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
@@ -32530,6 +32550,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -180
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 85cdf440cdc37504b9e772f37b313509, type: 2}
+    - target: {fileID: -4683669308469848369, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c4c2ee3e832cffd48bb9d156c2b21376, type: 2}
+    - target: {fileID: -4683669308469848369, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
+      propertyPath: 'm_Materials.Array.data[3]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ec63e2f99ff7d0c4ba51bea1b8e48be6, type: 2}
     - target: {fileID: 919132149155446097, guid: 5fa9546e91603bd42a91a67f33fa8a25, type: 3}
       propertyPath: m_Name
       value: Porsche

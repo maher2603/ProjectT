@@ -51,9 +51,11 @@ ScriptsOnlyBuild:
     - UnityEditor.Rendering.HighDefinition.HDProjectSettings
     - UnityEditor.Rendering.HighDefinition.HDUserSettings
     Unity.RenderPipelines.HighDefinition.Runtime.dll:
+    - UnityEngine.Rendering.HighDefinition.DiffusionProfileSettings
     - UnityEngine.Rendering.HighDefinition.HDAdditionalCameraData
     - UnityEngine.Rendering.HighDefinition.HDAdditionalLightData
     - UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings
+    - UnityEngine.Rendering.HighDefinition.HDRenderPipelineRuntimeResources
     Unity.RenderPipelines.Universal.Runtime.dll:
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalAdditionalLightData
@@ -144,7 +146,13 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.ProbeVolumeSceneData
     - UnityEngine.Rendering.UI.DebugUIPrefabBundle
     Unity.RenderPipelines.HighDefinition.Runtime:
+    - UnityEngine.Rendering.HighDefinition.DiffusionProfile
     - UnityEngine.Rendering.HighDefinition.FrameSettings
+    - UnityEngine.Rendering.HighDefinition.HDRenderPipelineRuntimeResources/AssetResources
+    - UnityEngine.Rendering.HighDefinition.HDRenderPipelineRuntimeResources/MaterialResources
+    - UnityEngine.Rendering.HighDefinition.HDRenderPipelineRuntimeResources/ShaderGraphResources
+    - UnityEngine.Rendering.HighDefinition.HDRenderPipelineRuntimeResources/ShaderResources
+    - UnityEngine.Rendering.HighDefinition.HDRenderPipelineRuntimeResources/TextureResources
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -240,7 +248,7 @@ ScriptsOnlyBuild:
     methodName: Race
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
-    methodName: Race
+    methodName: Drift
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: StartGame
@@ -255,6 +263,18 @@ ScriptsOnlyBuild:
     methodName: BlazeMap
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
+    methodName: StartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: Porsche
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: AE86
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: Camaro
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
     methodName: ReturnMenu
   - assembly: Assembly-CSharp
     fullTypeName: Restart
@@ -277,6 +297,18 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Restart
     methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: Restart
+    methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: ReturnMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: Restart
+    methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: ReturnMenu
   sceneClasses:
     Assets/Scenes/BlazePracticeGame.unity:
     - Class: 1
@@ -479,6 +511,63 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 1953259897
+      Script: {instanceID: 0}
+    Assets/Scenes/DriftMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 17752}
+    - Class: 114
+      Script: {instanceID: 17754}
+    - Class: 114
+      Script: {instanceID: 17808}
+    - Class: 114
+      Script: {instanceID: 22874}
+    - Class: 114
+      Script: {instanceID: 26220}
+    - Class: 114
+      Script: {instanceID: 26546}
+    - Class: 114
+      Script: {instanceID: 26768}
+    - Class: 114
+      Script: {instanceID: 29498}
+    - Class: 114
+      Script: {instanceID: 30704}
+    - Class: 114
+      Script: {instanceID: 32038}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/GameMenu.unity:
     - Class: 1
@@ -730,6 +819,180 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/OvalDriftCamaro.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 17750}
+    - Class: 114
+      Script: {instanceID: 17752}
+    - Class: 114
+      Script: {instanceID: 17754}
+    - Class: 114
+      Script: {instanceID: 17808}
+    - Class: 114
+      Script: {instanceID: 18004}
+    - Class: 114
+      Script: {instanceID: 18986}
+    - Class: 114
+      Script: {instanceID: 20258}
+    - Class: 114
+      Script: {instanceID: 21570}
+    - Class: 114
+      Script: {instanceID: 22874}
+    - Class: 114
+      Script: {instanceID: 26546}
+    - Class: 114
+      Script: {instanceID: 26634}
+    - Class: 114
+      Script: {instanceID: 26768}
+    - Class: 114
+      Script: {instanceID: 29498}
+    - Class: 114
+      Script: {instanceID: 30112}
+    - Class: 114
+      Script: {instanceID: 30580}
+    - Class: 114
+      Script: {instanceID: 30704}
+    - Class: 114
+      Script: {instanceID: 31454}
+    - Class: 114
+      Script: {instanceID: 32038}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 146
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/OvalDriftPorsche.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 17750}
+    - Class: 114
+      Script: {instanceID: 17752}
+    - Class: 114
+      Script: {instanceID: 17754}
+    - Class: 114
+      Script: {instanceID: 17808}
+    - Class: 114
+      Script: {instanceID: 18004}
+    - Class: 114
+      Script: {instanceID: 18986}
+    - Class: 114
+      Script: {instanceID: 20258}
+    - Class: 114
+      Script: {instanceID: 21570}
+    - Class: 114
+      Script: {instanceID: 22874}
+    - Class: 114
+      Script: {instanceID: 26546}
+    - Class: 114
+      Script: {instanceID: 26634}
+    - Class: 114
+      Script: {instanceID: 26768}
+    - Class: 114
+      Script: {instanceID: 29498}
+    - Class: 114
+      Script: {instanceID: 30112}
+    - Class: 114
+      Script: {instanceID: 30580}
+    - Class: 114
+      Script: {instanceID: 30704}
+    - Class: 114
+      Script: {instanceID: 31454}
+    - Class: 114
+      Script: {instanceID: 32038}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 146
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -3343,8 +3606,11 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/GameMenu.unity
   - Assets/Scenes/MapMenu.unity
+  - Assets/Scenes/DriftMenu.unity
   - Assets/Scenes/OvalPracticeGame.unity
   - Assets/Scenes/OvalRaceGame.unity
   - Assets/Scenes/BlazePracticeGame.unity
   - Assets/Scenes/BlazeRaceGame.unity
-  playerPath: C:/Users/Maher/Documents/Computer Science/Year 3/ecs657 - MPGD/ProjectT/v0.3.1
+  - Assets/Scenes/OvalDriftCamaro.unity
+  - Assets/Scenes/OvalDriftPorsche.unity
+  playerPath: C:/Users/Maher/Documents/Computer Science/Year 3/ecs657 - MPGD/ProjectT/v0.3.2

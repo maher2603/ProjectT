@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MapMenu.unity
     guid: 5103c7c3497e3d347b6b3e488f2434cb
   - enabled: 1
+    path: Assets/Scenes/DriftMenu.unity
+    guid: 4131ef4b398102a4e9890ff3b4e0476c
+  - enabled: 1
     path: Assets/Scenes/OvalPracticeGame.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
@@ -26,5 +29,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BlazeRaceGame.unity
     guid: 6b03ced33a0b6a944ba772e3a22a094e
+  - enabled: 1
+    path: Assets/Scenes/OvalDriftCamaro.unity
+    guid: 819981dbc8b9e4843a7f8a3743260931
+  - enabled: 1
+    path: Assets/Scenes/OvalDriftPorsche.unity
+    guid: cecbc71a5ee0f8d4ab883662b13b1dce
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
