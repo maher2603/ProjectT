@@ -51,11 +51,9 @@ ScriptsOnlyBuild:
     - UnityEditor.Rendering.HighDefinition.HDProjectSettings
     - UnityEditor.Rendering.HighDefinition.HDUserSettings
     Unity.RenderPipelines.HighDefinition.Runtime.dll:
-    - UnityEngine.Rendering.HighDefinition.DiffusionProfileSettings
     - UnityEngine.Rendering.HighDefinition.HDAdditionalCameraData
     - UnityEngine.Rendering.HighDefinition.HDAdditionalLightData
     - UnityEngine.Rendering.HighDefinition.HDRenderPipelineGlobalSettings
-    - UnityEngine.Rendering.HighDefinition.HDRenderPipelineRuntimeResources
     Unity.RenderPipelines.Universal.Runtime.dll:
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalAdditionalLightData
@@ -146,13 +144,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.ProbeVolumeSceneData
     - UnityEngine.Rendering.UI.DebugUIPrefabBundle
     Unity.RenderPipelines.HighDefinition.Runtime:
-    - UnityEngine.Rendering.HighDefinition.DiffusionProfile
     - UnityEngine.Rendering.HighDefinition.FrameSettings
-    - UnityEngine.Rendering.HighDefinition.HDRenderPipelineRuntimeResources/AssetResources
-    - UnityEngine.Rendering.HighDefinition.HDRenderPipelineRuntimeResources/MaterialResources
-    - UnityEngine.Rendering.HighDefinition.HDRenderPipelineRuntimeResources/ShaderGraphResources
-    - UnityEngine.Rendering.HighDefinition.HDRenderPipelineRuntimeResources/ShaderResources
-    - UnityEngine.Rendering.HighDefinition.HDRenderPipelineRuntimeResources/TextureResources
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -438,6 +430,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21760}
     - Class: 114
       Script: {instanceID: 22874}
+    - Class: 114
+      Script: {instanceID: 22950}
+    - Class: 114
+      Script: {instanceID: 24220}
     - Class: 114
       Script: {instanceID: 26546}
     - Class: 114
@@ -3351,4 +3347,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/OvalRaceGame.unity
   - Assets/Scenes/BlazePracticeGame.unity
   - Assets/Scenes/BlazeRaceGame.unity
-  playerPath: C:/Users/Maher/Documents/Computer Science/Year 3/ecs657 - MPGD/ProjectT/v0.3
+  playerPath: C:/Users/Maher/Documents/Computer Science/Year 3/ecs657 - MPGD/ProjectT/v0.3.1
