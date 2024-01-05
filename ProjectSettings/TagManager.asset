@@ -8,6 +8,7 @@ TagManager:
   - Position Tracker
   - CP
   - Cone
+  - CarPos
   layers:
   - Default
   - TransparentFX
