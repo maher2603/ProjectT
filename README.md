@@ -46,8 +46,10 @@ Omar Toumar - tmrinho
 
 References:
 
-CarControl.cs - Script - Source: https://github.com/PrismYoutube/Unity-Car-Controller (Accessed October 2023)
+CarController.cs - Script - Source: https://github.com/PrismYoutube/Unity-Car-Controller (Accessed October 2023)
 
 CheckpointsandLaps.cs - Script - Source: https://github.com/TheUnknown1050/Checkpoint-Tutorial (Accessed October 2023)
 
 MainMenu.cs - Script - Source: https://www.youtube.com/watch?v=RsgiYqLID-U&ab_channel=CocoCode (Acessed November 2023)
+
+GameOverScreen.cs - Script - Source: https://www.youtube.com/watch?v=K4uOjb5p3Io&ab_channel=CocoCode (Acessed December 2023)
