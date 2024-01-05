@@ -6,7 +6,13 @@ public class Rotation : MonoBehaviour
 {
     void Update()
     {
-
-        transform.Rotate(0, .05f, 0);
+        if (transform.CompareTag("Cone"))
+        {
+            transform.Rotate(0, .5f, 0);
+        }
+        else
+        {
+            transform.Rotate(0, .05f, 0);
+        }
     }
 }

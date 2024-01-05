@@ -7,6 +7,7 @@ TagManager:
   - Checkpoint
   - Position Tracker
   - CP
+  - Cone
   layers:
   - Default
   - TransparentFX

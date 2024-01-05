@@ -53,3 +53,9 @@ CheckpointsandLaps.cs - Script - Source: https://github.com/TheUnknown1050/Check
 MainMenu.cs - Script - Source: https://www.youtube.com/watch?v=RsgiYqLID-U&ab_channel=CocoCode (Acessed November 2023)
 
 GameOverScreen.cs - Script - Source: https://www.youtube.com/watch?v=K4uOjb5p3Io&ab_channel=CocoCode (Acessed December 2023)
+
+ConeCollection.cs - Script - Source: https://www.youtube.com/watch?v=6iSJ_jh6Rdo&t=17s (Acessed December 2023)
+
+AICarController.cs - Script - Source: https://www.youtube.com/watch?v=OQps_DfIep8&t=218s (Acessed December 2023)
+
+AICheckpointContainer.cs - Script - Source: https://www.youtube.com/watch?v=OQps_DfIep8&t=218s (Acessed December 2023)
