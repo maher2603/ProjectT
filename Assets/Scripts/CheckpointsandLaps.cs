@@ -9,6 +9,9 @@ using UnityEngine.UI;
 
 public class CheckpointsandLaps : MonoBehaviour
 {
+    public GameOverScreen GameOverScreen;
+    public RemoveUI RemoveUI;
+
     [Header("Checkpoints")]
     public GameObject start;
     public GameObject end;
@@ -30,6 +33,14 @@ public class CheckpointsandLaps : MonoBehaviour
     private float currentLapTime;
     private float bestLapTime;
     private float bestLap;
+    private float totalLapTime;
+
+
+    public void GameOver(float bestLapTime) {
+        GameOverScreen.Practice(bestLapTime);
+        RemoveUI.Setup();
+    }
+
 
     private void Start()
     {
@@ -59,14 +70,20 @@ public class CheckpointsandLaps : MonoBehaviour
 
         if (started)
         {
+            totalLapTime += currentLapTime;
             if (bestLap == currentLap)
             {
                 bestLapTime = currentLapTime;
             }
         }
+
+        if (finished)
+        {
+            GameOver(bestLapTime);
+        }
         
-        currentlaptext.text = $"Current: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00.000} - (Lap {currentLap})";
-        bestlaptext.text = $"Best: {Mathf.FloorToInt(bestLapTime / 60)}:{bestLapTime % 60:00.000} - (Lap {bestLap})";
+        currentlaptext.text = $"Current: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00.00} - (Lap {currentLap})";
+        bestlaptext.text = $"Best: {Mathf.FloorToInt(bestLapTime / 60)}:{bestLapTime % 60:00.00} - (Lap {bestLap})";
         totallaptext.text = "Lap "+ currentLap.ToString() + "/" +laps.ToString();
     }
 
@@ -97,6 +114,8 @@ public class CheckpointsandLaps : MonoBehaviour
 
                         finished = true;
                         print("Finished");
+                        
+                        
                     }
                     else
                     {
