@@ -33,7 +33,7 @@ public class Countdown : MonoBehaviour
         shadow.effectDistance = new Vector2(outlineSize, -outlineSize);
 
         // Display the countdown
-        while (currentTime > 1)
+        while (currentTime > 0.5)
         {
             currentTime -= Time.deltaTime;
 
