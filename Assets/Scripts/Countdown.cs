@@ -33,24 +33,20 @@ public class Countdown : MonoBehaviour
         shadow.effectDistance = new Vector2(outlineSize, -outlineSize);
 
         // Display the countdown
-        while (currentTime > 0)
+        while (currentTime > 1)
         {
             currentTime -= Time.deltaTime;
 
             // Set colors based on countdown value
-            if (currentTime >= 4)
+            if (currentTime >= 3.5)
             {
                 countdownText.color = redColor;
             }
-            else if (currentTime >= 1)
+            else 
             {
                 countdownText.color = yellowColor;
             }
-            else
-            {
-                countdownText.color = greenColor;
-            }
-
+            
             countdownText.text = currentTime.ToString("0");
             yield return null;
         }
