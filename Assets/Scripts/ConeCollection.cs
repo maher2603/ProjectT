@@ -7,7 +7,9 @@ public class ConeCollection : MonoBehaviour
     private int Cone = 0;
     public Text coneText;
     public Text countdown;
-    private float countdownTime = 180f; 
+    private float countdownTime = 180f;
+    private bool caught = true;
+    public GameObject policeCar;
 
     public GameOverScreen GameOverScreen;
     public RemoveUI RemoveUI;
@@ -28,6 +30,11 @@ public class ConeCollection : MonoBehaviour
             other.gameObject.SetActive(false);
             StartCoroutine(ReactivateCone(other.gameObject, 20f));
         }
+        if (other.transform.CompareTag("Police"))
+        {
+            gameObject.SetActive(false);
+            GameOver(Cone, caught);
+        }
     }
 
     private IEnumerator ReactivateCone(GameObject coneObject, float delay)
@@ -45,7 +52,8 @@ public class ConeCollection : MonoBehaviour
             countdownTime--;
             UpdateCountdownText();
         }
-        GameOver(Cone);
+        GameOver(Cone, !caught);
+        policeCar.SetActive(false);
     }
 
     private void UpdateCountdownText()
@@ -55,9 +63,9 @@ public class ConeCollection : MonoBehaviour
         countdown.text = "Time Remaining: " + minutes + ":" + seconds;
     }
 
-    public void GameOver(float cones)
+    public void GameOver(float cones, bool caught)
     {
-        GameOverScreen.Drift(cones);
+        GameOverScreen.Drift(cones, caught);
         RemoveUI.Setup();
     }
 }

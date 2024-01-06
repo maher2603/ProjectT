@@ -5,10 +5,10 @@ using UnityEngine;
 public class AICarController : MonoBehaviour
 {
     public List<Transform> AICheckpoints;
-    public float initialMovementSpeed = 2f; // Adjust this for the initial speed
+    public float initialMovementSpeed = 2f; 
     public float maxMovementSpeed = 20f;
-    public float accelerationExponent = 2f; // Adjust this for the acceleration curve
-    public float checkpointProximity = 5f; // Adjust this for the checkpoint proximity
+    public float accelerationExponent = 2f; 
+    public float checkpointProximity = 5f; 
     public AICheckpointContainer AICheckpointContainer;
 
     private CarController carController;
@@ -49,7 +49,7 @@ public class AICarController : MonoBehaviour
         currentMovementSpeed = initialMovementSpeed;
 
         // Start the delayed movement coroutine
-        StartCoroutine(DelayedMovement(5f)); // Adjust the delay time (5f) as needed
+        StartCoroutine(DelayedMovement(5f)); 
     }
 
     IEnumerator DelayedMovement(float delayTime)

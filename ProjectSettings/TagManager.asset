@@ -9,6 +9,7 @@ TagManager:
   - CP
   - Cone
   - CarPos
+  - Police
   layers:
   - Default
   - TransparentFX
