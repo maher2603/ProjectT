@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.011235357, g: 0.020671114, b: 0.07268329, a: 1}
+  m_IndirectSpecularColor: {r: 0.011303438, g: 0.020770222, b: 0.07275247, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1679,7 +1679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AICheckpoints: []
   initialMovementSpeed: 3
-  maxMovementSpeed: 20
+  maxMovementSpeed: 35
   accelerationExponent: 1
   checkpointProximity: 5
   AICheckpointContainer: {fileID: 901173803}
@@ -3367,7 +3367,7 @@ MonoBehaviour:
   motorForce: 1500
   breakForce: 2000
   maxSteerAngle: 30
-  maxSpeed: 35.1
+  maxSpeed: 35.2
   frontLeftWheelCollider: {fileID: 402072161}
   frontRightWheelCollider: {fileID: 402072160}
   rearLeftWheelCollider: {fileID: 402072159}
@@ -3390,7 +3390,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameOverScreen: {fileID: 0}
   RemoveUI: {fileID: 0}
-  RaceManager: {fileID: 1683324834}
   start: {fileID: 515791874}
   end: {fileID: 515791874}
   checkpoints:
@@ -15674,7 +15673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AICheckpoints: []
   initialMovementSpeed: 3
-  maxMovementSpeed: 20
+  maxMovementSpeed: 35
   accelerationExponent: 1
   checkpointProximity: 5
   AICheckpointContainer: {fileID: 900148795}
