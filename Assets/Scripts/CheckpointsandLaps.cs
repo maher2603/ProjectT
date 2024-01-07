@@ -36,8 +36,9 @@ public class CheckpointsandLaps : MonoBehaviour
     private float totalLapTime;
 
 
-    public void GameOver(float bestLapTime) {
-        GameOverScreen.Practice(bestLapTime);
+
+    public void GameOver(float bestLapTime, float position) {
+        GameOverScreen.Practice(bestLapTime, position);
         RemoveUI.Setup();
     }
 
@@ -79,7 +80,8 @@ public class CheckpointsandLaps : MonoBehaviour
 
         if (finished)
         {
-            GameOver(bestLapTime);
+            float carPosition = (GetComponent<CarPositionManager>() != null) ? GetComponent<CarPositionManager>().CarPosition : 0;
+            GameOver(bestLapTime, carPosition);
         }
         
         currentlaptext.text = $"Current: {Mathf.FloorToInt(currentLapTime / 60)}:{currentLapTime % 60:00.00} - (Lap {currentLap})";

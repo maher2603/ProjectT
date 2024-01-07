@@ -811,7 +811,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh34016
+  m_Name: pb_Mesh465314
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -1448,7 +1448,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33864
+  m_Name: pb_Mesh465146
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -8845,7 +8845,7 @@ WheelCollider:
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 75
+    m_ExtremumSlip: 25
     m_ExtremumValue: 500
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
@@ -8884,7 +8884,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 669205552}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.09853752, y: 0.0011110194, z: -0.00011001252, w: -0.99513274}
+  m_LocalRotation: {x: -0.09853752, y: 0.0011109851, z: -0.000110009125, w: -0.99513274}
   m_LocalPosition: {x: 0.02534914, y: 1.0239999, z: -3.4199965}
   m_LocalScale: {x: 0.21652119, y: 0.11711606, z: 0.19462581}
   m_ConstrainProportionsScale: 0
@@ -9576,8 +9576,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   motorForce: 10000
   breakForce: 10000
-  maxSteerAngle: 30
-  maxSpeed: 30
+  maxSteerAngle: 40
+  maxSpeed: 35
   frontLeftWheelCollider: {fileID: 989252178}
   frontRightWheelCollider: {fileID: 85187548}
   rearLeftWheelCollider: {fileID: 1724268235}
@@ -9695,6 +9695,7 @@ MonoBehaviour:
   bestLapText: {fileID: 1529549432}
   conesText: {fileID: 0}
   caughtText: {fileID: 0}
+  positionText: {fileID: 0}
 --- !u!114 &986936700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17849,7 +17850,7 @@ WheelCollider:
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 75
+    m_ExtremumSlip: 25
     m_ExtremumValue: 500
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
@@ -17983,7 +17984,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1742563388}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.00011001252, y: 0.99513274, z: -0.09853752, w: 0.0011110194}
+  m_LocalRotation: {x: 0.000110009125, y: 0.99513274, z: -0.09853752, w: 0.0011109851}
   m_LocalPosition: {x: -30.101397, y: 6.5959997, z: 11.879986}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -18570,7 +18571,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -18717,7 +18718,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-15270
+  m_Name: pb_Mesh465378
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2

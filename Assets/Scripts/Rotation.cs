@@ -12,7 +12,7 @@ public class Rotation : MonoBehaviour
         }
         else
         {
-            transform.Rotate(0, .05f, 0);
+            transform.Rotate(0, .1f, 0);
         }
     }
 }

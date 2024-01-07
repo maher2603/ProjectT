@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class RaceManager : MonoBehaviour
 {
+
     public GameObject Pt;
     public GameObject PositionTrackerHolder;
 
@@ -13,22 +14,22 @@ public class RaceManager : MonoBehaviour
     public GameObject[] PositionTrackerForEachCar;
 
     private int totalCars;
-    private int totalPositonTrackers;
+    private int totalPositionTrackers;
 
     public Text PositionText;
-    // Start is called before the first frame update
+
     void Start()
     {
         totalCars = Cars.Length;
-        totalPositonTrackers = PositionTrackerHolder.transform.childCount;
+        totalPositionTrackers = PositionTrackerHolder.transform.childCount;
         setPositionTrackers();
         setCarPosition();
     }
 
     void setPositionTrackers()
     {
-        PositionTrackerPositions = new Transform[totalPositonTrackers];
-        for (int i = 0; i < totalPositonTrackers; i++)
+        PositionTrackerPositions = new Transform[totalPositionTrackers];
+        for (int i = 0; i < totalPositionTrackers; i++)
         {
             PositionTrackerPositions[i] = PositionTrackerHolder.transform.GetChild(i).transform;
         }
@@ -49,7 +50,7 @@ public class RaceManager : MonoBehaviour
             Cars[i].GetComponent<CarPositionManager>().CarNumber = i;
         }
 
-        PositionText.text = "Position:" + Cars[0].GetComponent<CarPositionManager>().CarPosition + "/" + totalCars;
+        PositionText.text = "Position:" + Cars[1].GetComponent<CarPositionManager>().CarPosition + "/" + totalCars;
     }
 
     public void CarCollectedPt(int carNumber, int ptnumber)
