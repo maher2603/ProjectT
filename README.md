@@ -8,20 +8,27 @@ Project T
 
 Description:
 
-A Racing Game that is currently at the Prototype stage.
+An arcade style driving game with various game modes, cars and race tracks to enjoy.
 
 
 Features:
 
-Users can drive across a track.
+Practice Mode-
 
 Track has checkpoints dotted across the circuit for the driver to go past
-
-Checkpoints are used to generate a lap time which is made from checkpoint detection.
 
 If a driver does not go past a checkpoint, the lap time will not be registered
 
 A best lap time will be displayed alongside the current lap time and it will contain which lap the best lap was achieved.
+
+Race Mode-
+
+Apply your skills against AI drivers one two different race tracks in two different cars.
+
+Drift Mode- 
+
+Collect as many cones as possible in any one of three drift cars with different driving characteristics while attempting to not get caught by the police.
+
 
 
 Controls:
@@ -35,7 +42,7 @@ Use Mouse to click on in-game buttons
 
 Collaborators:
 
-Maher Reza Chowdhury - Maher2603
+Maher Reza Chowdhury - maher2603
 
 Alexander Miles Dexter - ec20559
 
@@ -45,9 +52,9 @@ Omar Toumar - tmrinho
 
 
 References:
-'CartoonTracksPack1' - Asset - Source: https://assetstore.unity.com/packages/3d/environments/roadways/cartoon-race-track-oval-175061 (Accessed October 2023)
+'CartoonTracksPack1' - Models - Source: https://assetstore.unity.com/packages/3d/environments/roadways/cartoon-race-track-oval-175061 (Accessed October 2023)
 
-'ARCADE - FREE Racing Car' - Asset - Source: https://assetstore.unity.com/packages/3d/vehicles/land/arcade-free-racing-car-161085 (Accessed October 2023)
+'ARCADE - FREE Racing Car' - Models - Source: https://assetstore.unity.com/packages/3d/vehicles/land/arcade-free-racing-car-161085 (Accessed October 2023)
 
 CarController.cs - Script - Source: https://github.com/PrismYoutube/Unity-Car-Controller (Accessed October 2023)
 
@@ -68,4 +75,6 @@ CarPositionManager.cs - Script - Source: https://www.youtube.com/watch?v=ZrHCnwb
 PositionTracker.cs - Script - Source: https://www.youtube.com/watch?v=ZrHCnwb31y8 (Accessed December 2023)
 
 RaceManager.cs - Script - Source: https://www.youtube.com/watch?v=ZrHCnwb31y8 (Accessed December 2023)
+
+'Super Eurobeat 1.1 Demo' - Audio - Source: https://assetstore.unity.com/packages/audio/music/electronic/super-eurobeat-pack-1-demo-133973 (Accessed January 2023)
 

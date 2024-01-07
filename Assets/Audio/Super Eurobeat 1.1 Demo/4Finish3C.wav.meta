@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 528a35c4e2559ef43b9ad4daf02a54dc
+timeCreated: 1564596051
+licenseType: Store
+AudioImporter:
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 0
+    quality: 1
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  preloadAudioData: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133973
+  packageName: Super eurobeat pack 1 - Demo
+  packageVersion: 1.1
+  assetPath: Assets/Super Eurobeat 1.1 Demo/4Finish3C.wav
+  uploadId: 323269

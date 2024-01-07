@@ -22,20 +22,29 @@ public class CheckpointsandLaps : MonoBehaviour
     public Text currentlaptext;
     public Text bestlaptext;
     public Text totallaptext;
-    
+
+    [Header("Audio")]
+    public AudioSource endSound;
+    public AudioSource gameSong;
 
     [Header("Information")]
     private float currentCheckpoint;
     private float currentLap;
     private bool started;
     private bool finished;
+    public float carPosition;
 
     private float currentLapTime;
     private float bestLapTime;
     private float bestLap;
     private float totalLapTime;
 
-
+    private void EndRace()
+    {
+        endSound.Play();
+        gameSong.Stop();
+        print("Finished");
+    }
 
     public void GameOver(float bestLapTime, float position) {
         GameOverScreen.Practice(bestLapTime, position);
@@ -54,6 +63,14 @@ public class CheckpointsandLaps : MonoBehaviour
         currentLapTime = 0;
         bestLapTime = 0;
         bestLap = 0;
+
+        StartCoroutine(StartGameSongDelayed());
+    }
+
+    private IEnumerator StartGameSongDelayed()
+    {
+        yield return new WaitForSeconds(5f);
+        gameSong.Play();
     }
 
     private void Update()
@@ -80,7 +97,7 @@ public class CheckpointsandLaps : MonoBehaviour
 
         if (finished)
         {
-            float carPosition = (GetComponent<CarPositionManager>() != null) ? GetComponent<CarPositionManager>().CarPosition : 0;
+            carPosition = (GetComponent<CarPositionManager>() != null) ? GetComponent<CarPositionManager>().CarPosition : 0;
             GameOver(bestLapTime, carPosition);
         }
         
@@ -115,9 +132,7 @@ public class CheckpointsandLaps : MonoBehaviour
                         }
 
                         finished = true;
-                        print("Finished");
-                        
-                        
+                        EndRace();
                     }
                     else
                     {

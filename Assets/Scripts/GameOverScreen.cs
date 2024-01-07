@@ -9,6 +9,7 @@ public class GameOverScreen : MonoBehaviour
     public Text conesText;
     public Text caughtText;
     public Text positionText;
+    public AudioSource endSound;
     public void Practice(float bestLapTime, float position)
     {
         gameObject.SetActive(true);

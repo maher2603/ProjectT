@@ -7,6 +7,8 @@ public class Countdown : MonoBehaviour
     float currentTime = 0f;
     float startingTime = 5f;
     float goTextDuration = 1f;
+    public AudioSource beep;
+    public AudioSource goSound;
 
     [SerializeField] Text countdownText;
     [SerializeField] Color redColor = Color.red;
@@ -42,14 +44,23 @@ public class Countdown : MonoBehaviour
             {
                 countdownText.color = redColor;
             }
-            else 
+            else
             {
                 countdownText.color = yellowColor;
             }
-            
-            countdownText.text = currentTime.ToString("0");
+
+            // Play the beep sound every time the countdown increments
+            if (Mathf.Floor(currentTime) != Mathf.Floor(currentTime + Time.deltaTime))
+            {
+                beep.Play();
+            }
+
+            countdownText.text = Mathf.Ceil(currentTime).ToString("0");
             yield return null;
         }
+
+        // Play the "GO!" sound
+        goSound.Play();
 
         // Display "GO!" and wait for the specified duration
         countdownText.color = greenColor;

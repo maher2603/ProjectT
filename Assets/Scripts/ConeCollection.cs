@@ -14,10 +14,28 @@ public class ConeCollection : MonoBehaviour
     public GameOverScreen GameOverScreen;
     public RemoveUI RemoveUI;
 
+    [Header("Audio")]
+    public AudioSource endSound;
+    public AudioSource gameSong;
+
+    private void EndRace()
+    {
+        endSound.Play();
+        gameSong.Stop();
+        print("Finished");
+    }
+
     private void Start()
     {
         UpdateCountdownText();
         StartCoroutine(StartCountdown());
+        StartCoroutine(StartGameSongDelayed());
+    }
+
+    private IEnumerator StartGameSongDelayed()
+    {
+        yield return new WaitForSeconds(5f);
+        gameSong.Play();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -34,6 +52,7 @@ public class ConeCollection : MonoBehaviour
         {
             gameObject.SetActive(false);
             GameOver(Cone, caught);
+            EndRace();
         }
     }
 
@@ -53,6 +72,7 @@ public class ConeCollection : MonoBehaviour
             UpdateCountdownText();
         }
         GameOver(Cone, !caught);
+        EndRace();
         policeCar.SetActive(false);
     }
 
