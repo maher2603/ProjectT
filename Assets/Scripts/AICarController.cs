@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AICarController : MonoBehaviour
 {
+    private DifficultyLevel currentDifficulty = DifficultyLevel.Hard;
     public List<Transform> AICheckpoints;
     public float initialMovementSpeed = 2f; 
     public float maxMovementSpeed = 20f;
@@ -31,6 +32,25 @@ public class AICarController : MonoBehaviour
     [SerializeField] private Transform rearLeftWheelTransform, rearRightWheelTransform;
 
     private bool canMove = false; // Flag to control when the car can start moving
+
+    public void SetDifficultyLevel(DifficultyLevel difficulty)
+    {
+        currentDifficulty = difficulty;
+
+        switch (currentDifficulty)
+        {
+            case DifficultyLevel.Easy:
+                maxMovementSpeed = 15f; // Adjust speed for easy difficulty
+                break;
+            case DifficultyLevel.Medium:
+                maxMovementSpeed = 20f; // Adjust speed for medium difficulty
+                break;
+            case DifficultyLevel.Hard:
+                maxMovementSpeed = 25f; // Adjust speed for hard difficulty
+                break;
+                // Add more cases if needed
+        }
+    }
 
     void Start()
     {

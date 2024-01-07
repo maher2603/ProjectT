@@ -65,6 +65,11 @@ public class MainMenu : MonoBehaviour
         GameModeManager.SetGameModes(false, true, false);
     }
 
+    public void Difficulty()
+    {
+        SceneManager.LoadScene("DifficultyMenu");
+    }
+
     public void Drift()
     {
         SceneManager.LoadScene("DriftMenu");

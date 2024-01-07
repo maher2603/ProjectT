@@ -41,5 +41,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OvalDriftAE86.unity
     guid: c63e8fadc2c108441b13747c33ec6880
+  - enabled: 1
+    path: Assets/Scenes/DifficultyMenu.unity
+    guid: 0b865ecd3f7319c48a583eeb38cdda79
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
