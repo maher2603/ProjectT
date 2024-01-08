@@ -66,3 +66,4 @@ RaceManager.cs - Script - Source: https://www.youtube.com/watch?v=ZrHCnwb31y8 (A
 
 'Super Eurobeat 1.1 Demo' - Audio - Source: https://assetstore.unity.com/packages/audio/music/electronic/super-eurobeat-pack-1-demo-133973 (Accessed January 2023)
 
+### *Project uses Git LFS
