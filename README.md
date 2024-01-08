@@ -1,37 +1,25 @@
 # ProjectT
 Multi-Platform Game Development Group Project
 
-Name:
-
-Project T
-
-
-Description:
-
-An arcade style driving game with various game modes, cars and race tracks to enjoy.
+## Name:
+Project Track Racing
 
 
-Features:
+## Description:
 
-Practice Mode-
-
-Track has checkpoints dotted across the circuit for the driver to go past
-
-If a driver does not go past a checkpoint, the lap time will not be registered
-
-A best lap time will be displayed alongside the current lap time and it will contain which lap the best lap was achieved.
-
-Race Mode-
-
-Apply your skills against AI drivers one two different race tracks in two different cars.
-
-Drift Mode- 
-
-Collect as many cones as possible in any one of three drift cars with different driving characteristics while attempting to not get caught by the police.
+An arcade-style driving game with various game modes, cars, and race tracks to enjoy.
 
 
+## Features:
 
-Controls:
+Practice Mode - The track has checkpoints dotted across the circuit for the driver to go past. If a driver does not go past a checkpoint, the lap time will not be registered. The best lap time will be displayed alongside the current lap time and it will contain which lap the best lap was achieved.
+
+Race Mode - Apply your skills against AI drivers on two different race tracks in two different cars. At the end of the race, you will be told your final position and best lap time for the race.
+
+Drift Mode - Collect as many cones as possible in any one of three drift cars with different driving characteristics while attempting to not get caught by the police.
+
+
+## Controls:
 
 Use WASD/Arrow Keys for Simple Directional Movement
 
@@ -40,7 +28,7 @@ Use Spacebar for Brake
 Use Mouse to click on in-game buttons
 
 
-Collaborators:
+## Collaborators:
 
 Maher Reza Chowdhury - maher2603
 
@@ -51,7 +39,7 @@ Abdirahman Mohamud - OfficialARM17
 Omar Toumar - tmrinho
 
 
-References:
+## References:
 'CartoonTracksPack1' - Models - Source: https://assetstore.unity.com/packages/3d/environments/roadways/cartoon-race-track-oval-175061 (Accessed October 2023)
 
 'ARCADE - FREE Racing Car' - Models - Source: https://assetstore.unity.com/packages/3d/vehicles/land/arcade-free-racing-car-161085 (Accessed October 2023)
